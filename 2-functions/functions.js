@@ -14,7 +14,7 @@ describe("functions", function() {
 
             ////////////////////////////////////////////////////////////////////
             // ✏️ ADD CODE HERE ✏️
-
+            
             ////////////////////////////////////////////////////////////////////
         });
     });
@@ -57,7 +57,7 @@ describe("functions", function() {
 
             ////////////////////////////////////////////////////////////////////
             // ✏️ EDIT LINE BELOW ✏️
-            myFunction(); // why is myFunction not callable?
+            otherFunction(); 
             ////////////////////////////////////////////////////////////////////
         });
     });
@@ -96,7 +96,9 @@ describe("functions", function() {
             // and 'answerThirdResult' with the correct results.
             // If you call getContext() here, you're a cheater! :)
             // ✏️ ADD CODE HERE ✏️
-
+         const firstResult = undefined;
+         const secondResult = context;
+         const thirdResult = undefined;
             ////////////////////////////////////////////////////////////////////
 
             // First we call the function without an explicit context
